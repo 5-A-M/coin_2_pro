@@ -109,15 +109,15 @@ const Component2 = (props) => {
         <div className="container" style={{height: "100%", padding: "5px 0px 0px 0px"}}>
           <TitleContainer title={"5 second volume chart"} />
           <div className="contents" style={{height: "calc(100% - 30px)", display: "flex", justifyContent: "center", gap: 16}}>
-            <div className="wrapper-chart-model" style={{width: "100%", height: "70%"}}>
+            <div className="wrapper-chart-model" style={{width: "100%", height: "100%"}}>
               <WrapperSymbol img={"https://cdn.coinglasscdn.com/static/coins/btc@2x.png"} symbolName={"BTC"} />
-              <div className="sfhjkahjskahsasas" style={{width: "100%", display: "flex", justifyContent: 'center', alignItems: "center", position: "relative", top: 20, left: 10}}>
+              <div className="sfhjkahjskahsasas" style={{width: "100%", display: "flex", justifyContent: 'center', alignItems: "center", position: "relative", height: "calc(100% - 28px)"}}>
                 <ShowChart className={"chart_model"} id="inago_chart_btc" />
               </div>
             </div>
-            <div className="wrapper-chart-model" style={{width: "100%", height: "70%"}}>
+            <div className="wrapper-chart-model" style={{width: "100%", height: "100%"}}>
               <WrapperSymbol img={"https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png"} symbolName={"ETH"} />
-              <div className="sfhjkahjskahsasas" style={{width: "100%", display: "flex", justifyContent: 'center', alignItems: "center", position: "relative", top: 20, left: 10}}>
+              <div className="sfhjkahjskahsasas" style={{width: "100%", display: "flex", justifyContent: 'center', alignItems: "center", position: "relative", height: "calc(100% - 28px)"}}>
                 <ShowChart className={"chart_model"} id="inago_chart_eth" />
               </div>
             </div>
